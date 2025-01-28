@@ -1,0 +1,37 @@
+body {
+    padding: 1rem;
+    margin: 1rem;
+}
+nav {
+    box-shadow: 5px 5px 5px #e1e1e1;
+    position: sticky;
+}
+nav:hover {
+    box-shadow: 2px 2px 2px grey;
+}
+.navigationheading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+nav .navigationheading .logo img {
+    height: 3cm;
+    width: 3cm;
+}
+nav .navigationheading button {
+    border:
+}
+nav .navigation button:hover {
+    box-shadow: 2px 2px 2px grey;
+}
+
+nav .navigationheading .button {
+    font-size: 32px;
+}
+nav .navigationheading .button:hover {
+    color: pink;
+}
