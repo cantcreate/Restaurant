@@ -22,16 +22,67 @@ nav .navigationheading .logo img {
     height: 3cm;
     width: 3cm;
 }
-nav .navigationheading button {
-    border:
-}
+
 nav .navigation button:hover {
     box-shadow: 2px 2px 2px grey;
 }
 
 nav .navigationheading .button {
     font-size: 32px;
+    padding-top: 2px ;
 }
 nav .navigationheading .button:hover {
     color: pink;
+}
+.mainpart {
+    padding: 2cm;
+}
+.mainpart .slogan_img {
+    padding: 6px;
+    margin: 6px;
+}
+.mainpart .slogan_img img {
+    height: 6cm;
+    width: 8cm;
+}
+.slogan {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+button .explorebtn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.slogan button:hover {
+    box-shadow: 3px 3px 3px blue;
+}
+.slogan_word h2 {
+    background-color: darkgreen;
+    color: white;
+    font-weight: 400;
+    padding: 4px;
+}
+.slogan_word p {
+    background-color: #8B4513;
+    padding: 7px;
+    color: #FFFDD0;
+    font-weight: 400;
+    text-align: center;
+    font-size: larger;
+}
+.slogan button {
+    background-color: #F5F5DC;
+    color: #008080;
+    border: none;
+    box-shadow: 1px 1px 1px darkgreen;
+
+}
+.features {
+    display: flex;
+    gap: 20px;
+    padding: 2cm;
+}
+.features .feature img {
+    height: 3cm;
+    width: 3cm;
 }
