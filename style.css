@@ -2,12 +2,16 @@ body {
     padding: 1rem;
     margin: 1rem;
 }
-nav {
+nav  {
+    border: 3px solid darkgreen;
     box-shadow: 5px 5px 5px #e1e1e1;
+    padding: 4px 5px;
     position: sticky;
+    top: 0;
+    background: white;
 }
 nav:hover {
-    box-shadow: 2px 2px 2px grey;
+    box-shadow: 4px 4px 4px grey;
 }
 .navigationheading {
     display: flex;
@@ -21,9 +25,13 @@ nav:hover {
 nav .navigationheading .logo img {
     height: 3cm;
     width: 3cm;
+    border: none;
+}
+nav .navigationheading button {
+    border: 2px solid darkgreen;
 }
 
-nav .navigation button:hover {
+nav .navigationheading button:hover {
     box-shadow: 2px 2px 2px grey;
 }
 
@@ -32,7 +40,7 @@ nav .navigationheading .button {
     padding-top: 2px ;
 }
 nav .navigationheading .button:hover {
-    color: pink;
+    color: #8B4513;
 }
 .mainpart {
     padding: 2cm;
@@ -81,8 +89,91 @@ button .explorebtn {
     display: flex;
     gap: 20px;
     padding: 2cm;
+    justify-content: center;
+}
+.feature {
+    display: flex;
+    gap: 20px;
 }
 .features .feature img {
     height: 3cm;
     width: 3cm;
 }
+.feature_detail p {
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.feature:hover {
+    transition: ease-in-out;
+    box-shadow: 3px 3px 3px grey;
+}
+.site {
+    border: solid 1px grey;
+    margin: 3opx 0;
+    
+}
+.grid {
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    justify-content: flex;
+    grid-template-areas: 
+    "I1 I2 I6"
+    "I3 I5 I6"
+    "I4 I7 I7";
+
+}
+.pic1 {
+    grid-area: I1;
+}
+.pic2 {
+    grid-area: I2;
+}
+.pic3 {
+    grid-area: I3;
+}
+.pic4 {
+    grid-area: I4;
+}
+.pic5 {
+    grid-area: I5;
+}
+.pic6 {
+    grid-area: I6;
+}
+.pic7 {
+    grid-area: I7;
+}
+
+
+.pic1 img {
+    height: 10cm;
+    width: 10cm;
+}
+.pic2 img {
+    height: 10cm;
+    width: 10cm;
+}
+.pic3 img {
+    height: 10cm;
+    width: 10cm;
+}
+.pic4 img {
+    height: 12cm;
+    width: 10cm;
+}
+.pic5 img {
+    height: 10cm;
+    width: 10cm;
+}
+.pic6 img {
+    height: 20cm;
+    width: 10cm;
+}
+.pic7 img {
+    height: 12cm;
+    width: 22cm;
+}
+
+
+
