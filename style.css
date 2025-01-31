@@ -62,7 +62,7 @@ button .explorebtn {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .slogan button:hover {
-    box-shadow: 3px 3px 3px blue;
+    box-shadow: 3px 3px 3px red;
 }
 .slogan_word h2 {
     background-color: darkgreen;
@@ -82,7 +82,7 @@ button .explorebtn {
     background-color: #F5F5DC;
     color: #008080;
     border: none;
-    box-shadow: 1px 1px 1px darkgreen;
+    box-shadow: 1px 1px darkgreen ;
 
 }
 .features {
@@ -173,6 +173,34 @@ button .explorebtn {
 .pic7 img {
     height: 12cm;
     width: 22cm;
+}
+
+.grid .prashamsa:hover {
+    transition: ease-in-out;
+}
+.footerlogo img {
+    height: 3cm;
+    width: 3cm;
+}
+.mainfooter {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkgreen;
+    margin-top: 50px;
+    padding: 50px 0;
+
+    
+}
+.mainfooter h3, li {
+    color: white;
+}
+.mainfooter li:hover {
+    text-decoration: underline;
+}
+.mainfooter li {
+    list-style: none;
 }
 
 
