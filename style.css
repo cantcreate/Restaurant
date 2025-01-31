@@ -78,11 +78,15 @@ button .explorebtn {
     text-align: center;
     font-size: larger;
 }
+.slogan .order {
+    padding-left: 50px;
+}
 .slogan button {
     background-color: #F5F5DC;
     color: #008080;
-    border: none;
-    box-shadow: 1px 1px darkgreen ;
+    border: solid 2px darkgreen;
+    box-shadow: 3px 3px darkgreen ;
+    border-radius: 50%;
 
 }
 .features {
@@ -107,8 +111,16 @@ button .explorebtn {
     transition: ease-in-out;
     box-shadow: 3px 3px 3px grey;
 }
+.site h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 2000;
+    color: darkgreen;
+}
 .site {
-    border: solid 1px grey;
+    border: ;
     margin: 3opx 0;
     
 }
@@ -192,6 +204,9 @@ button .explorebtn {
     padding: 50px 0;
 
     
+}
+.mainfooter h3:hover {
+    transform: scale(1.2);
 }
 .mainfooter h3, li {
     color: white;
