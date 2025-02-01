@@ -1,3 +1,7 @@
+.shoppingcart {
+    display: flex;
+    justify-content: space-between;
+}
 .box {
     height: 7cm;
     width: 6cm;
