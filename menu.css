@@ -1,3 +1,49 @@
+body {
+    padding: 1rem;
+    margin: 1rem;
+}
+nav  {
+    border: 3px solid darkgreen;
+    box-shadow: 5px 5px 5px #e1e1e1;
+    padding: 10px 10px;
+    position: sticky;
+    top: 0;
+    background: white;
+    margin-bottom: 20px;
+
+}
+nav:hover {
+    box-shadow: 4px 4px 4px grey;
+}
+.navigationheading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+nav .navigationheading .logo img {
+    height: 3cm;
+    width: 3cm;
+    border: none;
+}
+nav .navigationheading button {
+    border: 1px solid darkgreen;
+}
+
+nav .navigationheading button:hover {
+    box-shadow: 2px 2px 2px grey;
+}
+
+nav .navigationheading .button {
+    font-size: 32px;
+    padding-top: 2px ;
+}
+nav .navigationheading .button:hover {
+    color: #8B4513;
+}
 .shoppingcart {
     display: flex;
     justify-content: space-between;
@@ -27,7 +73,7 @@
     color: chocolate;
     font-weight: 700;
 }
-button {
+.shoppingcartbtn {
     margin-right: 20px;
     margin-bottom: 10px;
     border: 1px solid teal;
