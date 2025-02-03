@@ -44,6 +44,11 @@ nav .navigationheading .button {
 nav .navigationheading .button:hover {
     color: #8B4513;
 }
+.popular {
+    text-align: center;
+    color: darkgreen;
+    padding-top: 30px;
+}
 .shoppingcart {
     display: flex;
     justify-content: space-between;
@@ -85,3 +90,31 @@ nav .navigationheading .button:hover {
  button:hover {
     transform: scale(1.2);
  }
+ .footerlogo img {
+    height: 3cm;
+    width: 3cm;
+}
+.mainfooter {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkgreen;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+.mainfooter h3:hover {
+    transform: scale(1.2);
+}
+.mainfooter h3, li {
+    color: white;
+}
+.mainfooter li:hover {
+    text-decoration: underline;
+}
+.mainfooter li {
+    list-style: none;
+}
+
+
+
